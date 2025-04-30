@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  
+  section {
+    padding: 3rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .integrantes {
+    display: flex;
+    justify-content: space-between;  /* Alinea los artículos de forma horizontal */
+    align-items: center;  /* Centra los artículos verticalmente */
+  }
+  
+  .integrante {
+    width: 48%;  /* Asigna el 48% de ancho a cada artículo */
+    display: flex;
+    flex-direction: column;  /* Coloca los elementos (título, foto, etc.) en columna */
+    align-items: center;  /* Centra los elementos dentro de cada artículo */
+    justify-content: center;  /* Asegura que el contenido se alinee verticalmente */
+    padding: 1rem;
+  }
+  
+  .integrante img {
+    width: 80%;  /* Ajusta el tamaño de la imagen según el ancho del artículo */
+    height: auto;
+    border-radius: 50%;  /* Hace la imagen circular (opcional) */
+    margin-bottom: 10px;  /* Da un espacio debajo de la imagen */
+  }
+  .title-integrantes {
+    font-size: 2.5rem;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 50px;
+    color: white;
+  }
+
+  footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+#descripcion {
+    text-align: center;
+    background-color: #ddd;
+}
+#canvas-container {
+    width: 100%;  /* Hace que el contenedor ocupe todo el ancho */
+    padding-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+section-titulo {
+  width: 50%;
+}
+
